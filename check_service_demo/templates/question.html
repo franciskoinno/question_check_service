@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Question check</h2>
+
+<form method="POST">
+  <label for="question">Question:</label><br>
+  <input type="text" id="question" name="question" value=""><br>
+  <label for="a">A:</label><br>
+  <input type="text" id="a" name="a" value=""><br>
+  <label for="b">B:</label><br>
+  <input type="text" id="b" name="b" value=""><br>
+  <label for="c">C:</label><br>
+  <input type="text" id="c" name="c" value=""><br>
+   <label for="d">D:</label><br>
+  <input type="text" id="d" name="d" value=""><br><br>
+  <input type="submit" name="submit_button" value="Check">
+  <input type="submit" name="submit_button" value="submit">
+</form>
+<h2>{{ service_on }}</h2>
+<p>{{ predict_content }}</p>
+<p>If you click the "Check" button, question and choices will pass to check service.</p>
+
+</body>
+</html>

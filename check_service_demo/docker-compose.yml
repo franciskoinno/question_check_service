@@ -1,0 +1,19 @@
+version: '3.7'
+
+services:
+      web1:
+        build: 
+         context: .
+         dockerfile: webdocker
+        depends_on:
+         - web2
+        container_name: web1
+        ports:
+         - "8001:5000"
+      web2:
+        build: 
+         context: .
+         dockerfile: chatdocker
+        container_name: web2
+        ports:
+         - "8002:5000"
