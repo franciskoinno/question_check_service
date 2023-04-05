@@ -2,7 +2,7 @@ import requests
 from flask import Flask, request, jsonify
 import json
 
-api_key = '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' # you need to use your own chatgpt apikey for testing
+api_key = 'xxxxxxxxxxxxxxxxxxxxxx' # you need to use your own chatgpt apikey for testing
 
 app = Flask(__name__)
 
